@@ -38,7 +38,7 @@ public class NaukriAutomate {
         String filePath = System.getProperty("user.dir\\reports");
 
         //upload resume
-        driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys(filePath+"\\MUNNA PATHAN.pdf");
+        driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys(filePath+"\\SRUTHI Tester QA.pdf");
         Thread.sleep(3000);
         driver.navigate().refresh();
 
